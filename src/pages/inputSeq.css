@@ -1,0 +1,76 @@
+.google-login-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.google-login-button {
+  cursor: pointer;
+  width: 50%;
+  max-width: 300px;
+}
+
+.modal-body-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.google-login-button-container {
+  margin-top: 20px;
+}
+
+.google-login-button {
+  cursor: pointer;
+}
+
+.next-page-container {
+  position: relative;
+  height: 100vh;
+  transition: padding-left 0.3s ease;
+  padding-left: 0px;
+}
+
+.next-page-container.shrink {
+  padding-left: 300px;
+}
+
+.next-page {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-page:hover {
+  background-color: #0fb9af;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #5cb85c;
+}
+
+h4 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+}
+
+button {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
